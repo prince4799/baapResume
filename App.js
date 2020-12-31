@@ -1,14 +1,18 @@
-import { StatusBar } from 'expo-status-bar';
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import React from 'react'
+import { StyleSheet, Text, View } from 'react-native'
+import Resume from './components/resume'
+import Form from './components/form'
+// import Skill from './components/skill'
+import Project from './components/projects'
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+      {/* <Form/> */}
+      <Project/>
+      {/* <Resume/> */}
     </View>
-  );
+  )
 }
 
 const styles = StyleSheet.create({
@@ -18,4 +22,4 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
-});
+})
