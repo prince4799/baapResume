@@ -16,7 +16,8 @@
     "react-native-paper": "^4.5.0",
     "react-native-vector-icons": "^7.1.0",
     "react-native-web": "~0.13.12",
-    "rn-pdf-generator": "^1.6.4"
+    "rn-pdf-generator": "^1.6.4",
+    "expo-image-picker": "~9.2.0"
   },
   "devDependencies": {
     "@babel/core": "~7.9.0"

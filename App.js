@@ -4,12 +4,14 @@ import Resume from './components/resume'
 import Form from './components/form'
 // import Skill from './components/skill'
 import Project from './components/projects'
+import ImageUpload from './components/imageUpload'
 
 export default function App() {
   return (
     <View style={styles.container}>
       {/* <Form/> */}
-      <Project/>
+      {/* <Project/> */}
+      <ImageUpload/>
       {/* <Resume/> */}
     </View>
   )
